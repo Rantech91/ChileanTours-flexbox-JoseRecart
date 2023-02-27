@@ -351,6 +351,25 @@ Services
   }
 }
 
+@media screen and (min-width: 1170px) {
+  .service {
+    display: flex;
+    text-align: left;
+  }
+
+  .service-icon {
+    align-self: start;
+  }
+
+  .service-info {
+    padding-left: 1rem;
+  }
+
+  .service-title {
+    margin-bottom: 0.5rem;
+  }
+}
+
 /*
 =============== 
 Featured Tours
