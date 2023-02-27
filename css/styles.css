@@ -322,6 +322,7 @@ Services
   display: inline-block;
   font-size: 2rem;
   margin-bottom: 1.5rem;
+  border-radius: 3px;
 }
 
 .service-text {
@@ -380,6 +381,7 @@ Featured Tours
   background: var(--clr-grey-10);
   box-shadow: var(--light-shadow);
   margin-bottom: 2rem;
+  border-radius: var(--radius);
 }
 
 .tour-card:hover {
@@ -394,6 +396,24 @@ Featured Tours
 .tour-img {
   height: 15rem;
   object-fit: cover;
+  border-top-left-radius: var(--radius);
+  border-top-right-radius: var(--radius);
+}
+
+.tour-title {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.tour-title p,
+.tour-title h4 {
+  margin-bottom: 0.75rem;
+  line-height: 1.25;
+}
+
+.tour-title p {
+  color: var(--clr-grey-7);
 }
 
 .tour-date {
@@ -409,6 +429,10 @@ Featured Tours
 
 .tour-info {
   padding: 1.25rem 1.5rem;
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1;
+  align-items: stretch;
 }
 
 .tour-footer {
