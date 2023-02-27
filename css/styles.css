@@ -305,6 +305,19 @@ About
 Services
 ===============
 */
+.services-center {
+  display: flex;
+}
+
+.services {
+  background: var(--clr-grey-10);
+}
+
+.service {
+  display: flex;
+  text-align: center;
+  margin-bottom: 3rem;
+}
 
 /*
 =============== 
